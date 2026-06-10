@@ -471,7 +471,7 @@ def send_admin_panel(chat_id, message_id=None):
         f"👥 Foydalanuvchilar  : <b>{users}</b>\n"
         f"🖱 Jami faollik      : <b>{clicks}</b>\n"
         f"📺 Majburiy kanallar : <b>{len(channels)}</b>\n"
-        f"""💾 Backup            : {'✅ mavjud' if meta_file else '❌ yo'q'}\n"""
+        f"💾 Backup            : {'✅ mavjud' if meta_file else '❌ yoq'}\n"
         f"⏱ {datetime.now().strftime('%d.%m.%Y  %H:%M:%S')}"
     )
     kb = admin_keyboard()
